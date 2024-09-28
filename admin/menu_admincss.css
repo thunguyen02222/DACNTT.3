@@ -1,0 +1,99 @@
+/*menu 1*/
+.menu1{
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  background-color: red;
+}
+.menu1-logofptshop{
+  text-align: center;
+  margin: 10px 10px;
+}
+.menu1-logofptshopimg{
+  width: 150px;
+}
+.menu1-Search{
+  display: flex;
+  text-align: center;
+  margin: auto 10px;
+
+}
+
+.menu1-Search-txt{
+  height: 2rem;
+    width: 20rem;
+      margin-right: 10px;
+}
+.menu1-Search-btn{
+  background-color: black;
+}
+.menu1-Search-btn-img{
+      width: 25px;
+      margin: 1px 1px;
+      margin-top: 2px;
+}
+/*hết menu 1*/
+
+
+.header-img{
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 1176px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.menu{
+  width: 100%;
+  text-align: center  ;
+  background-color: black;
+  color: white;
+}
+.menu-text{
+    text-decoration: none;
+    color: white;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    font-size: 18px;
+    border: none;
+    margin: 6px 30px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px 5px;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color:#eee;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 4px 12px;
+    text-decoration: none;
+    display: block;
+    opacity: 70%;
+    font-family: sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;opacity: 100%; scale: 102%; }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {/*background-color: #3e8e41; border-bottom: solid 3px red ;*/opacity: 80%}

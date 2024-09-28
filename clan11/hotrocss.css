@@ -1,0 +1,123 @@
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .search-box {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .search-box input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .faq-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top:3%;
+        }
+        .faq-item {
+            border-bottom: 1px solid #ccc;
+            padding: 20px 0;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+.menu1{
+  display: block;
+  background-color: red;
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+  padding: 80px ;
+}
+
+.menu1-Search{
+  display: flex;
+  text-align: center;
+  margin: auto 10px;
+  width: 300px;
+    position: relative;
+    left: 30%;
+    transform: translateX(-30%);
+    color: gray;
+}
+
+.menu1-Search-txt{
+    height: 3.5rem;
+    width: 43rem;
+    margin-right: 12px;
+    font-size: 140%;
+}
+.menu1-Search-btn{
+     background-color: black;
+    margin-left: -11px;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+}
+.menu1-Search-btn-img{
+      width: 25px;
+      margin: 1px 1px;
+      margin-top: 2px;
+}
+.tttg{
+    position: fixed;
+    color: orange;
+    position: fixed;
+    margin-top: 45px;
+    margin-left: 300px;
+}
+.menu1-logofptshopimg{
+    position: fixed;
+}
+
+
+.ngang1{
+
+    position: fixed; 
+    display: flex;
+    align-items: center;
+    top: 22px;
+    left: 131px;
+}
+.menu1-logofptshopimg{
+
+    width: 244px;
+    margin-left:30px ;
+    margin-top: -70px;
+}
+
+
+.boxnoidung{
+    display: inline-block;
+    width: 1176px;
+    position: relative;
+    left: 35%;
+    transform: translateX(-35%);
+    margin-top: 20%;
+}
+.faq-list-div{
+    border: solid 2px gray;
+    padding: 10px;
+}
+.faq-list-a{
+    text-decoration: none;
+
+}
+.tieudemenu{
+   font-size: 40px;
+}
+h1{
+
+    text-align: center;
+    font-weight: 450;
+    font-family:system-ui;
+}

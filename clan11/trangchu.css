@@ -1,0 +1,245 @@
+
+.menu1{
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  background-color: red;
+}
+.menu1-logofptshop{
+  text-align: center;
+  margin: 10px 10px;
+}
+.menu1-logofptshopimg{
+  width: 150px;
+}
+.menu1-Search{
+  display: flex;
+  text-align: center;
+  margin: auto 10px;
+
+}
+
+.menu1-Search-txt{
+  height: 2rem;
+    width: 20rem;
+      margin-right: 10px;
+}
+.menu1-Search-btn{
+  background-color: black;
+}
+.menu1-Search-btn-img{
+      width: 25px;
+      margin: 1px 1px;
+      margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+  width: 100%;
+  text-align: center  ;
+  background-color: black;
+  color: white;
+}
+.menu-text{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    font-size: 18px;
+    border: none;
+    margin: 6px 30px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 6px 5px;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color:#eee;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 4px 12px;
+    text-decoration: none;
+    display: block;
+    opacity: 70%;
+    font-family: sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;opacity: 100%; scale: 102%; }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {/*background-color: #3e8e41; border-bottom: solid 3px red ;*/opacity: 80%}
+
+
+
+
+
+
+.header-img{
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 1176px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*Sản phẩm*/
+.product-tong-can{
+  width: 1176px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); 
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.product-tong-can-title{
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  font-family: sans-serif;
+  padding-top: 20px
+}
+.product-tong{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product{
+  width: 269px;
+  padding: 12px;
+  text-align: center;
+}
+.product:hover{
+  border: solid #919191 2px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.product-img:hover {
+  scale: 103%;
+}
+.product-img-chitiet{
+  display: inline-block;
+  height: 210px;
+  border: solid red 5px;
+  width: 255px;
+  border-radius: 24px;
+}
+.product-img-tragop_giam{
+  position: relative;
+  bottom: 270px;
+  left: 2.5px;
+}
+.product-img-chitiet-img{
+  height: 80%;
+  margin-top: 20px;
+}
+.product-img-tragop{
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 4px;
+  color: white;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #ea9d02;
+  margin-bottom: 10px;
+  width: 75px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+.product-img-giam{
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 4px;
+  color: white;
+  border-radius: 0px 6px 6px 0px;
+  background-color: #cb1c22;
+  width: 100px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+.product-thongtin{
+  position: relative;
+  bottom: -20px;
+  font-family: sans-serif;
+}
+.product-thongtin-ten{
+  text-decoration: none;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 700;
+  padding-left: 10px;
+  color: #474c51;
+  margin-bottom: 10px;
+}
+.product-thongtin-ten:hover{
+  color: #0168fa;
+}
+.product-thongtin-gia-cu{
+  color: #919191;
+  font-size: 12px;
+  text-decoration: line-through;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+.product-thongtin-gia-moi{
+  width: 130px;
+  height: 28px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+  background-color: #cd1817;
+  color: white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+ 
+}
+.product-thongtin-daban{
+  color: #919191;
+  font-size: 12px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-20%);
+  top: 20px;
+}

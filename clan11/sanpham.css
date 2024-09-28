@@ -1,0 +1,243 @@
+
+.menu1{
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+  background-color: red;
+}
+.menu1-logofptshop{
+  text-align: center;
+  margin: 10px 10px;
+}
+.menu1-logofptshopimg{
+  width: 150px;
+}
+.menu1-Search{
+  display: flex;
+  text-align: center;
+  margin: auto 10px;
+
+}
+
+.menu1-Search-txt{
+  height: 2rem;
+    width: 20rem;
+      margin-right: 10px;
+}
+.menu1-Search-btn{
+  background-color: black;
+}
+.menu1-Search-btn-img{
+      width: 25px;
+      margin: 1px 1px;
+      margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+  width: 100%;
+  text-align: center  ;
+  background-color: black;
+  color: white;
+}
+.menu-text{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    font-size: 18px;
+    border: none;
+    margin: 6px 30px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 6px 5px;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color:#eee;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 4px 12px;
+    text-decoration: none;
+    display: block;
+    opacity: 70%;
+    font-family: sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;opacity: 100%; scale: 102%; }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {/*background-color: #3e8e41; border-bottom: solid 3px red ;*/opacity: 80%}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sản phẩm*/
+.product-tong-can{
+  width: 1176px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); 
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.product-tong{
+  display: grid;
+  grid-template-columns: 75% auto;
+  text-align: left;
+}
+.product{
+  display: grid;
+  grid-template-columns: 50% auto;
+  padding-right: 20px;
+}
+.product-title{
+  font-family: sans-serif;
+  font-weight: 520;
+}
+.product-left-img{
+  display: inline-block;
+  width: 100%;
+  border: solid 5px red;
+  border-radius: 12px;
+  text-align: center;
+  background-color: white;
+}
+.product-left-img-chitiet{
+  padding: 40px 0px;
+  width: 100%;
+}
+.product-left{
+  display: inline-block;
+  padding-right: 30px;
+}
+.product-right-thongtin{
+  display: block;
+  width: 100%;
+  background-color: #eaeaea;
+  border: solid 1px #909090;
+  border-radius: 16px;
+  font-family: sans-serif;
+}
+.product-right-thongtin-chitiet{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.product-right-buy-gia{
+  display: grid;
+  grid-template-columns: 50% auto;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.product-right-buy-gia-moi{
+  text-align: right;
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 700;
+}
+.product-right-buy-gia-cu{
+  text-decoration: line-through;
+  color: #919191;
+  align-self: center;
+  margin-left: 10px;
+}
+.product-right-buy-botton{
+  width: 100%;
+  font-size: 2rem;
+  background-color: #cb1c22;
+  color: white;
+  padding: 10px;
+  border-radius: 9px
+}
+.goiy{
+  display: block;
+  margin-left: 30px
+}
+.goiy-title{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: #0000a3;
+  color: white;
+  margin-top: 20px;
+  border: solid 1px #909090;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.product-goiy-can{
+  display: inline-block;
+  width: 100%;
+}
+.product-goiy{
+  display: flex;
+  margin-top: 5px;
+}
+.product-goiy-img{
+  display: inline-block;
+  width: 80px;
+  border: solid 1px black;
+  border-radius: 4px;
+  text-align: center;
+  align-self: center;
+}
+.product-goiy-img-chitiet{
+  width: 92%;
+}
+.product-goiy-thongtin{
+  display: inline-block;
+  margin-left: 5px;
+  font-family: sans-serif;
+  color: #383838;
+}
+.product-goiy-thongtin-ten{
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.product-goiy-thongtin-ten-a{
+  text-decoration: none;
+  color: #383838;
+}
+.product-goiy-thongtin-ten-a:hover{
+  color: red;
+}
